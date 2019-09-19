@@ -55,7 +55,7 @@ textarea {
     #articles article {
         display: inline-block;
         width: 30%;
-        margin:  1em;
+        margin:  .9em;
         min-height: 160px;
         background-color: #dedede;
     }
