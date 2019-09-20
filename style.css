@@ -12,6 +12,7 @@ nav ul, nav li {
 nav ul { 
     list-style-type: none;
     margin: 0;
+    padding: 0;
 }
 nav li {
     padding: 1em;
@@ -42,6 +43,14 @@ input, select, textarea {
 }
 textarea {
     min-height: 160px;
+}
+/* On screens that are 600px wide or less, */
+@media screen and (max-width: 320px) {
+    nav li { padding: 1em 0.25em; }    
+}
+/* On screens that are 600px wide or less, */
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    nav li { padding: 1em 0.5em; }    
 }
 /* If screen size is more than 961px wide */
 @media screen and (min-width: 961px) {
